@@ -14,6 +14,8 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 
   <!-- Theme CSS -->
   <link href="css/freelancer.min.css" rel="stylesheet">
@@ -33,10 +35,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
@@ -47,7 +52,7 @@
   </nav>
 
   <!-- Masthead -->
-  <header class="masthead bg-primary text-white text-center">
+  <header class="masthead bg-primary text-white text-center bg-dark" style="background:green!important;">
     <div class="container d-flex align-items-center flex-column">
 
       <!-- Masthead Avatar Image -->
@@ -70,10 +75,60 @@
 
       <a class="btn btn-xl btn-outline-light" "fas fa-download mr-2" href="https://drive.google.com/file/d/14G2qv9cuV15O3WfelFWZWImdM-tK-GIb/view?usp=sharing">
         Resume</a>
+      </div>
+    </header>
+    <!-- About Section -->
+    <section class="page-section bg-light text-white mb-0" id="about">
+      <div class="container">
+
+        <!-- About Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-white" style="Color:black!important;">About</h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-dark" style="color: black;">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star" style="color: black!important;"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- About Section Content -->
+
+        <div class="row" style="color:white!important">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead" style="color:black;">My path into Software Engineering began with a passion to build projects. Prior to starting my career in tech, I built two blogs.
+               My first blog was a baseball blog where I wrote review and opinion articles which lead to other opportunities such as being a cohost of a podcast. My other blog was a video game blog
+             where I documented my process into learning how to code by building small video game projects.</p>
+          </div>
+          <div class="col-lg-4 mr-auto" style="color: black;">
+            <p class="lead">My brief experience in video game development sparked my interest in software enginneering because it fit both interests of building projects and technology.
+              On my spare time I like to watch sports or play video games.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section class="page-section bg-dark text-green mb-0" id="skills" style="background:green!important;">
+      <div class="container">
 
 
-    </div>
-  </header>
+
+        <!-- About Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-white">Skills</h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Technologies used-->
+
 
   <!-- Portfolio Section -->
   <section class="page-section portfolio" id="portfolio">
@@ -146,55 +201,24 @@
     </div>
   </section>
 
-  <!-- About Section -->
-  <section class="page-section bg-primary text-white mb-0" id="about">
-    <div class="container">
-
-      <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- About Section Content -->
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">My path into Software Engineering began with a passion to build projects. Prior to starting my career in tech, I built two blogs.
-             My first blog was a baseball blog where I wrote review and opinion articles which lead to other opportunities such as being a cohost of a podcast. My other blog was a video game blog
-           where I documented my process into learning how to code by building small video game projects.</p>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">My brief experience in video game development sparked my interest in software enginneering because it fit both interests of building projects and technology.
-            On my spare time I like to watch sports or play video games.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Contact Section -->
-  <section class="page-section" id="contact">
+  <section class="page-section bg-light" style="background-color: green!important;" id="contact" style="color:green">
     <div class="container">
 
       <!-- Contact Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-light mb-0">Contact Me</h2>
 
       <!-- Icon Divider -->
       <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
+        <div class="divider-custom-line bg-light"></div>
+        <div class="divider-custom-icon bg-light">
           <i class="fas fa-star"></i>
         </div>
         <div class="divider-custom-line"></div>
       </div>
 
       <!-- Contact Section Form -->
-      <div class="row">
+      <div class="row" style="color: green!important;">
         <div class="col-lg-8 mx-auto">
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
           <form name="sentMessage" id="contactForm" novalidate="novalidate">
@@ -207,9 +231,9 @@
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Email Address</label>
+                <label class>Email Address</label>
                 <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                <p class="help-block text-danger"></p>
+                <p class="help-block text-danger bg-light"></p>
               </div>
             </div>
             <div class="control-group">
@@ -246,17 +270,14 @@
         <!-- Footer Social Icons -->
         <div class="col-lg-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Around the Web</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/jordan.dickow.79">
             <i class="fab fa-fw fa-facebook-f"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
+          <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/DickowJordan">
             <i class="fab fa-fw fa-twitter"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/jordan-dickow/">
             <i class="fab fa-fw fa-linkedin-in"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-dribbble"></i>
           </a>
         </div>
 
@@ -331,7 +352,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Pokedex</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
@@ -341,13 +362,13 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cake.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/portfolio/pokedex.jpg" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
+                <p class="mb-5"> I based this project off of the Pokemon cartoon! A pokedex is a directory full of all the pokemon in the universe.
+                  This is a full stack application. The back end is built with Ruby on Rails.
+                The front end is built with JavaScript, CSS, and HTML. </p>
+                <a class="btn btn-xl btn-outline-dark" "fas fa-download mr-2" href="https://jordandickow.github.io/pokedex-project-2/">
+                See my Pokedex!</a>
               </div>
             </div>
           </div>
@@ -370,7 +391,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Desiderata</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
@@ -380,13 +401,13 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/portfolio/desiderata.jpg" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
+                <p class="mb-5"> This bucket list application is where I demonstrated my ability to build a functional application within a team environment.
+                  Desiderata is a full stack application. The backend was built with Express and MongoDB. The front end was built with HTML, CSS, and JavaScript.</p>
+                <a class="btn btn-xl btn-outline-dark" "fas fa-download mr-2" href="https://team-j-a-d-a.github.io/desiderata-FE/">  Go to Desiderata
+                </a>
+
               </div>
             </div>
           </div>
@@ -409,7 +430,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">My Game Library</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
@@ -419,91 +440,10 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/game.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/portfolio/mygamelibrary.jpg" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/safe.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
+                <p class="mb-5">Store all your games in My Game Library! My Game Library is a fullstack application. The frontend was built with React using class components. The back end was built with Ruby on Rails. </p>
+                <a class="btn btn-xl btn-outline-dark" "fas fa-download mr-2" href="https://github.com/JordanDickow/my-game-Library">  Go to My Game Library</a>
               </div>
             </div>
           </div>
